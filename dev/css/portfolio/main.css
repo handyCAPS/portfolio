@@ -1,0 +1,344 @@
+/*-------------------*\
+
+    BOWER
+
+\*-------------------*/
+/*-------------------*\
+
+    RESET
+
+\*-------------------*/
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+body {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+[hidden], template {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+a {
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+a:active, a:hover {
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+b, strong {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+dfn {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+small {
+  font-size: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+sub {
+  bottom: -0.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+img {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+svg:not(:root) {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+figure {
+  margin: 1em 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+pre {
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button {
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button, select {
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input {
+  line-height: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+legend {
+  border: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+textarea {
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+optgroup {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+td, th {
+  padding: 0; }
+
+/****************************\
+
+    The start of my stuff
+
+\****************************/
+/*-------------------*\
+
+    VARIABLES
+
+\*-------------------*/
+/********************
+
+    BASE COLORS
+
+********************/
+/*-------------------*\
+
+    COMPONENT COLOR
+
+\*-------------------*/
+/*-------------------*\
+
+    BASE MEASUREMENTS
+
+\*-------------------*/
+/*-------------------*\
+
+    BASE
+
+\*-------------------*/
+/*------------------------------------*\
+    #CLEARFIX
+\*------------------------------------*/
+/**
+* Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+* Extend the clearfix class with Sass to avoid the `.cf` class appearing over
+* and over in your markup.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_helpers\.scss}line{font-family:\0000313}}
+.cf:after, .nav:after, .nav--ul__inline:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_base\.scss}line{font-family:\000033}}
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_base\.scss}line{font-family:\000037}}
+  a:hover, a:focus {
+    color: #c7c7c7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_body\.scss}line{font-family:\000033}}
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_body\.scss}line{font-family:\000038}}
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_body\.scss}line{font-family:\0000312}}
+body {
+  background-color: #111111; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_body\.scss}line{font-family:\0000316}}
+#outerWrap {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden; }
+  @media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_body\.scss}line{font-family:\0000316}}
+    #outerWrap {
+      width: 100%;
+      padding: 0 24px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\000033}}
+.nav {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000310}}
+.nav--top {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000314}}
+.nav--ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000319}}
+  .nav--ul li {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000321}}
+    .nav--ul li:hover .nav--ul__sub {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000324}}
+    .nav--ul li.active a {
+      color: #db4342;
+      pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000329}}
+  .nav--ul a {
+    display: block;
+    padding: 12px 24px;
+    color: #b8b8b8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000334}}
+    .nav--ul a:hover, .nav--ul a:focus {
+      color: #db4342; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000341}}
+.nav--ul__top {
+  padding: 8px 0;
+  border-bottom: 1px solid #d33534;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000349}}
+.nav--ul__inline li {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000354}}
+.nav--ul__right {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000358}}
+.nav--ul__sub {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_nav\.scss}line{font-family:\0000363}}
+  .nav--ul__sub li {
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_header\.scss}line{font-family:\000033}}
+.tagline {
+  display: inline-block;
+  color: #d33534;
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 200;
+  font-size: 3rem;
+  text-align: right;
+  width: 33.33333%;
+  border-left: 1px solid #d33534; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/Portfolio\/dev\/scss\/portfolio\/_header\.scss}line{font-family:\0000314}}
+.tagline--line {
+  display: block; }

@@ -1,0 +1,66 @@
+
+
+.nav {
+    @extend .cf;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.nav--top {
+    position: relative;
+}
+
+.nav--ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+        li {
+            position: relative;
+                &:hover .nav--ul__sub {
+                    display: block;
+                }
+                &.active a {
+                    color: $navColorHover;
+                    pointer-events: none;
+                }
+        }
+        a {
+            display: block;
+            padding: $squarePadding;
+            color: $navColor;
+
+                &:hover, &:focus {
+                    color: $navColorHover;
+                }
+
+        }
+}
+
+.nav--ul__top {
+    padding: $base-spacing-unit / 3 0;
+    border-bottom: 1px solid $borderColor;
+    transition: 0.3s;
+}
+
+.nav--ul__inline {
+    @extend .cf;
+        li {
+            float: left;
+        }
+}
+
+.nav--ul__right {
+    float: right;
+}
+
+.nav--ul__sub {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+        li {
+            float: none;
+        }
+}

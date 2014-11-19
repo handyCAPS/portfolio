@@ -1,0 +1,16 @@
+
+
+.tagline {
+    display: inline-block;
+    color: $taglineColor;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: right;
+    width: 33.33333%;
+    border-left: 1px solid $borderColor;
+}
+
+.tagline--line {
+    display: block;
+}

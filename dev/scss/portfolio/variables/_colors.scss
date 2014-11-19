@@ -1,0 +1,41 @@
+
+
+
+/********************
+
+    BASE COLORS
+
+********************/
+
+$black: #111111;
+$white: #F0F0F0;
+
+$stoneGrey: #B8B8B8;
+
+$salmon: #DB4342;
+
+$fadedOrange: #D33534;
+
+$scarletRed: #BD1311;
+
+
+
+/*-------------------*\
+
+    COMPONENT COLOR
+
+\*-------------------*/
+
+
+$linkColor: $white;
+$linkColorHover: darken($linkColor, 16);
+
+
+$navColor: $stoneGrey;
+$navColorHover: $salmon;
+
+
+$taglineColor: $fadedOrange;
+
+
+$borderColor: $fadedOrange;
