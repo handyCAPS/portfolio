@@ -11,6 +11,9 @@ html {
 
 body {
     background-color: $black;
+    color: $bodyColor;
+    text-rendering: optimizeLegibility;
+    font-family: $bodyFont;
 }
 
 #outerWrap {
@@ -22,4 +25,16 @@ body {
             width: 100%;
             padding: 0 $base-spacing-unit;
         }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headerFont;
+    margin: 0 0 $base-spacing-unit;
 }

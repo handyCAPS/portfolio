@@ -1,16 +1,51 @@
 
 
+header {
+    position: relative;
+}
+
 .tagline {
     display: inline-block;
+    width: 33.333333%;
+    margin-right: $base-spacing-unit * 2;
     color: $taglineColor;
     font-family: 'Yanone Kaffeesatz';
     font-weight: 200;
     font-size: 3rem;
     text-align: right;
-    width: 33.33333%;
-    border-left: 1px solid $borderColor;
+    border-left: 1px solid transparent;
+    transition: 1.3s;
+}
+
+.no-js .tagline {
+    border-left-color: $borderColor;
 }
 
 .tagline--line {
     display: block;
+    position: relative;
+}
+
+.card {
+    @include textPadding();
+    width: calc(66.666666% - #{$base-spacing-unit * 2 + 6});
+    display: inline-block;
+    visibility: hidden;
+    transform: rotateX(-90deg);
+    transform-origin: 0 0;
+    transform-style: preserve-3d;
+    transition: transform 1s ease-out;
+    vertical-align: top;
+        p {
+
+        }
+
+        h1 {
+            // text-align: right;
+        }
+}
+
+.no-js .card {
+    transform: rotateX(0deg);
+    visibility: visible;
 }
